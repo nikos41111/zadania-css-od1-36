@@ -1,0 +1,85 @@
+<p>1. Wymień oraz opisz dwie części selektora
+Selektor składa się z dwóch głównych części:
+
+Selektor – wskazuje, do jakich elementów HTML ma zostać zastosowane formatowanie. Przykłady: p, h1, div, p b.
+
+Deklaracja – zawiera zbiór właściwości i ich wartości, zapisany w nawiasach klamrowych {...}.
+<textarea rows="5" cols="80">
+Przykład:
+p {
+  color: red;
+}
+Selektor: p
+
+Deklaracja: { color: red; }
+</textarea>
+</p>
+<p>2. Znaczenie nawiasów klamrowych {...}
+Nawiasy klamrowe {...} otaczają deklarację, czyli zestaw właściwości (cech) i przypisanych im wartości.
+
+Dzięki nim przeglądarka wie, które właściwości mają zostać zastosowane do danego selektora.
+<textarea rows="5" cols="80">
+Przykład:
+
+css
+
+h1 {
+  font-size: 24pt;
+  color: blue;
+}
+Tutaj { font-size: 24pt; color: blue; } to deklaracja otoczona nawiasami klamrowymi.
+</textarea>
+</p>
+
+<p>3. Opisz cechy
+Cecha (ang. property) to konkretna właściwość formatowania, którą możemy przypisać elementowi HTML.
+
+Każdy znacznik HTML ma zestaw dopuszczalnych cech, np. color, font-size, background-color, text-align.
+<textarea rows="5" cols="80">
+Przykład:
+
+css
+p {
+  text-align: justify;
+}
+Cecha: text-align
+
+Opis: wyrównanie tekstu (np. do lewej, do prawej, wyjustowane)
+</textarea>
+</p>
+<p>4. Opisz wartości
+Wartość (ang. value) to konkretna wartość przypisana do cechy.
+
+Każda cecha ma określony zestaw dopuszczalnych wartości.
+<textarea rows="5" cols="80">
+Przykład:
+
+css
+p {
+  color: red;
+}
+Cecha: color
+
+Wartość: red (czyli kolor czerwony)
+
+Niektóre cechy mogą przyjmować tylko określone wartości – np. text-align tylko: left, right, center, justify.
+</textarea>
+</p>
+<p>5. Kiedy stosujemy znak średnika ;, a kiedy nie jest konieczny
+Znak średnika ; oddziela kolejne pary cecha–wartość w deklaracji.
+
+Zaleca się stosowanie średnika po każdej deklaracji, nawet gdy jest tylko jedna – dla czytelności i poprawności kodu.
+
+Nie jest obowiązkowy po ostatniej deklaracji w nawiasach, ale warto go stosować nawykowo.
+<textarea rows="14" cols="80">
+Przykład poprawny:
+h1 {
+  color: green;
+  font-size: 20pt;
+}
+Przykład bez średnika na końcu – technicznie poprawny, ale mniej czytelny:
+h1 {
+  color: green
+}
+</textarea>
+</p>

@@ -1,0 +1,103 @@
+<p>1) Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie jako podłączenie stylu CSS?
+Styl zewnętrzny umieszczany jest w nagłówku dokumentu HTML, między znacznikami <head> a </head>.
+
+Za jego podłączenie odpowiada znacznik:
+
+html
+Kopiuj
+Edytuj
+<link rel="stylesheet" type="text/css" href="style.css" />
+Znacznik <link> może występować dowolną ilość razy, dla każdego stylu osobno.
+</p>
+<p>2) Składnia teoretyczna
+html
+<textarea rows="7" cols="80">
+<head>
+  <style>
+    selektor {
+      cecha: wartość;
+    }
+  </style>
+</head>
+</textarea>
+</p>
+<p>3) Jaka jest najprostsza forma wstawiania stylu zewnętrznego?
+Najprostsza forma to pojedyncza linijka wstawiona w sekcji <head> dokumentu:
+
+html
+<textarea rows="5" cols="80">
+<link rel="stylesheet" type="text/css" href="style.css" />
+</textarea>
+</p>
+<p>4) Ile arkuszy styli może być dołączonych do jednego dokumentu HTML oraz jaka zasada musi być zachowana przy większej ilości dołączanych styli?
+Można dołączyć dowolną liczbę arkuszy stylów. Każdy z nich powinien mieć osobny znacznik <link>.
+
+Zasada: Jeśli kilka arkuszy zawiera style dla tych samych elementów, ważniejsze będą style z arkusza dołączonego później.
+</p>
+<p>5) Co się dzieje w przypadku konfliktów?
+W przypadku konfliktu (czyli gdy te same selektory i cechy występują w różnych arkuszach), priorytet mają style z arkusza dodanego później.
+<textarea rows="7" cols="80">
+Przykład:
+
+html
+<link rel="stylesheet" href="a.css" />
+<link rel="stylesheet" href="b.css" /> <!-- ten ma wyższy priorytet -->
+</textarea>
+</p>
+<p>6) Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?
+Plik CSS to zwykły plik tekstowy z rozszerzeniem .css.
+
+Można go tworzyć i edytować w edytorach takich jak Notatnik, Notepad++, VS Code, Sublime Text itd.
+<textarea rows="7" cols="80">
+Przykład:
+
+css
+
+body {
+  background-color: lightgray;
+  font-family: Arial;
+}
+</textarea>
+</p>
+<p>7) Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?
+Do edytowania stylów można też używać specjalnych edytorów CSS, np.:
+
+Visual Studio Code (z dodatkami do CSS),
+
+Brackets,
+
+WebStorm,
+
+Stylizer.
+
+Takie narzędzia ułatwiają podpowiedzi składni, kolorowanie kodu i szybki podgląd zmian.
+</p>
+<p>8) Jakie rozszerzenie posiada plik będący zewnętrznym arkuszem stylów?
+Plik zewnętrznego arkusza stylów posiada rozszerzenie:
+.css
+
+Przykład:
+style.css
+</p>
+<p>9) Jakie są zalety zewnętrznego arkusza stylów?
+Spójność wyglądu stron – wszystkie strony mogą mieć wspólny styl.
+
+Łatwość aktualizacji – zmieniając jeden plik .css, aktualizujemy wygląd wszystkich stron.
+</p>
+<p>10) Uwagi na temat pisania w CSS
+Każda cecha i wartość muszą być zakończone średnikiem.
+
+Selektory muszą być poprawnie zapisane, bez literówek.
+
+Plik .css powinien być czysty i czytelny, najlepiej dobrze sformatowany.
+
+Warto grupować style dla przejrzystości:
+<textarea rows="7" cols="80">
+css
+
+h1, h2, h3 {
+  font-family: Arial;
+  color: #333;
+}
+</textarea>
+</p>
