@@ -1,0 +1,17 @@
+p {
+color: red;
+font-size: 22pt;
+ }
+
+p#gruby_majer {
+
+color: green;
+font-size: 17pt;
+}
+
+#dlawszystkich_majer{
+
+color: yellow;
+font-size: 17pt;
+font-weight: bold;
+}

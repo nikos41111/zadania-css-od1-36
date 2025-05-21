@@ -1,0 +1,32 @@
+p#pogrubienie_maj{
+font-size: 30px;
+color: rgb(146,93,207);
+}
+
+p#pochylona_maj{
+font-size: 35pt;
+color: rgb(246,193,107);
+}
+
+p#index_gorny_maj{
+font-size: 1cm;
+color: rgb(146,143,27);
+}
+
+p#index_dolny_maj{
+font-size: 1,5cm;
+color: rgb(67,241,27);
+}
+
+p#mono_maj{
+font-size: 40px;
+color: rgb(38,223,107);
+}
+
+p#powiekszenie_maj{
+color: rgb(96,63,157);
+}
+
+p#pomniejszenie_maj{
+color: rgb(196,163,57);
+}
