@@ -1,0 +1,37 @@
+.p {
+  width: 1200px;
+  height: 400px;
+  border: 2px solid;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.p1 {
+  width: 300pt;
+  height: 2cm;
+  border: 2px groove;           
+  border-top:ridge lime; 
+  border-right:ridge yellow;
+  border-left:ridge blue;
+  border-bottom:ridge gray;   
+  margin-bottom: 20px;
+  margin-left: 700px;
+}
+
+.p2 {
+  width: 400pt;
+  height: 3cm;
+  border: 2px dashed;           
+  border-color: black;      
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+
+.p3 {
+  width: 400pt;
+  height: 4cm;
+  border: 2px double;   
+  border-color: maroon;  
+  margin-left: 100px;  
+
+}
