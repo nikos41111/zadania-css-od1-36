@@ -15,7 +15,7 @@
   border-left:ridge blue;
   border-bottom:ridge gray;   
   margin-bottom: 20px;
-  margin-left: 400px;
+  margin-left: 700px;
 }
 
 .p2 {
@@ -24,7 +24,7 @@
   border: 2px dashed;           
   border-color: black;      
   margin-bottom: 20px;
-  margin-left: 650px;
+  margin-left: 400px;
 }
 
 .p3 {
@@ -32,6 +32,6 @@
   height: 4cm;
   border: 2px double;   
   border-color: maroon;  
-  margin-left: 80px;  
+  margin-left: 100px;  
 
 }
